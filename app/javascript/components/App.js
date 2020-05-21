@@ -1,8 +1,8 @@
 import React from 'react'
-import { Route, Switch} from "react-router-dom"
-import Home from "./Home"
-import Contact from "./Contact"
+import Home from "./home"
+
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { Route, Switch} from "react-router-dom"
 
 class App extends React.Component {
     render() {
@@ -10,7 +10,6 @@ class App extends React.Component {
             <div>
                 <Switch>
                     <Route exact path="/" component={Home} />
-                    <Route exact path="/contact" component={Contact} />
                 </Switch>
             </div>
         );

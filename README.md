@@ -1,7 +1,6 @@
-# README
+# Boggle - A word puzzle game
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a widely known word puzzle game where a user is awarded by a score per letter count in a word formed by adjucent letters in a square matrix with random alphabetic characters.
 
 Things you may want to cover:
 
